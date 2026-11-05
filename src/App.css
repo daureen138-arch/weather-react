@@ -1,0 +1,66 @@
+.app {
+  font-family: system-ui, -apple-system, sans-serif;
+  text-align: center;
+  padding: 40px 20px;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #e0f2fe, #bae6fd);
+  color: #0f172a;
+}
+
+.search-form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.search-form input {
+  padding: 10px 15px;
+  font-size: 16px;
+  border: 1px solid #94a3b8;
+  border-radius: 8px;
+  width: 250px;
+}
+
+.search-form button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #0284c7;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.search-form button:hover {
+  background-color: #0369a1;
+}
+
+.status {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.status.error {
+  color: #dc2626;
+}
+
+.weather-card {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  display: inline-block;
+  min-width: 250px;
+}
+
+.weather-card h2 {
+  margin-top: 0;
+}
+
+.temp {
+  font-size: 48px;
+  font-weight: bold;
+  color: #0284c7;
+  margin: 10px 0;
+}
