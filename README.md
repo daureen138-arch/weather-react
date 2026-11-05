@@ -3,7 +3,7 @@
 Приложение для просмотра текущей погоды в любом городе. Написано на React (Vite).
 
 ## Демо
-*(Ссылка появится после деплоя на Vercel)*
+[Демо сайт](https://weather-react-seven-puce.vercel.app)
 
 ![Скриншот](doc/screenshot.png)
 ![Скриншот](doc/screenshot1.png)
